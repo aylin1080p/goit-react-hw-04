@@ -12,6 +12,11 @@ Image search application built with React and Vite.
 - React Loader Spinner
 - CSS Modules
 
+## Links
+
+- Source: https://github.com/aylin1080p/goit-react-hw-04
+- Live Demo: https://goit-react-hw-04-tau-coral-10.vercel.app
+
 ## Setup
 
 1. Install dependencies with `npm install`.
