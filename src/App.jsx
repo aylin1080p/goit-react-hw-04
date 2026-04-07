@@ -93,15 +93,6 @@ function App() {
       <SearchBar onSubmit={handleSearch} />
 
       <main className="container">
-        <section className="heroSection">
-          <p className="eyebrow">Unsplash explorer</p>
-          <h1 className="title">Find images that feel like a story, not just a search result.</h1>
-          <p className="subtitle">
-            Search for landscapes, portraits, travel scenes, textures, or any mood you want to
-            collect.
-          </p>
-        </section>
-
         {error && !hasImages && (
           <ErrorMessage message="Something went wrong while loading images. Please try again." />
         )}

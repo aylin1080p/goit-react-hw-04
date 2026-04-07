@@ -3,11 +3,8 @@
   top: 0;
   z-index: 10;
   padding: 20px 16px;
-  background:
-    linear-gradient(135deg, rgba(8, 91, 87, 0.92), rgba(248, 166, 76, 0.9)),
-    #0b1f26;
-  box-shadow: 0 12px 24px rgba(11, 31, 38, 0.18);
-  backdrop-filter: blur(12px);
+  background-color: #0b7a75;
+  box-shadow: 0 8px 18px rgba(11, 31, 38, 0.12);
 }
 
 .form {
