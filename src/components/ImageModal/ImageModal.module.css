@@ -1,0 +1,47 @@
+.content {
+  color: #f4efe7;
+}
+
+.image {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.details {
+  display: grid;
+  gap: 12px;
+  padding: 24px;
+}
+
+.title {
+  margin: 0;
+  color: #fff7ed;
+  font-size: 28px;
+}
+
+.text {
+  margin: 0;
+  color: rgba(244, 239, 231, 0.86);
+}
+
+.text span {
+  color: #fff7ed;
+}
+
+.link {
+  display: inline-flex;
+  width: fit-content;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background-color: #f8a64c;
+  color: #112830;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 22px;
+  }
+}

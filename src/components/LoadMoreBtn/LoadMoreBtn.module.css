@@ -1,0 +1,29 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0b7a75, #095b57);
+  color: #fefbf7;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+  box-shadow: 0 14px 28px rgba(11, 122, 117, 0.24);
+}
+
+.button:hover,
+.button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px rgba(11, 122, 117, 0.3);
+}
+
+.button:disabled {
+  opacity: 0.75;
+  cursor: progress;
+  transform: none;
+}
